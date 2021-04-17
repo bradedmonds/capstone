@@ -5,7 +5,7 @@ class Api::CitiesController < ApplicationController
   end
 
   def show
-    @city = City.find_by(city: params[:id].capitalize)
+    @city = City.find_by(city: params[:id].capitalize).concerts
     render "show.json.jb"
   end
 end
