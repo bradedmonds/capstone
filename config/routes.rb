@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   namespace :api do
     #cities routes
     get "/cities" => "cities#index"
+    get "/cities/:id" => "cities#show"
   end
 end
