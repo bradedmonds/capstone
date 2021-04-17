@@ -1,6 +1,6 @@
 class Api::CitiesController < ApplicationController
   def index
-    @cities = City.all
+    @cities = City.order(:city)
     render "index.json.jb"
   end
 end
