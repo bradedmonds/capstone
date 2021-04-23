@@ -7,5 +7,8 @@ Rails.application.routes.draw do
     #cities routes
     get "/cities" => "cities#index"
     get "/cities/:id" => "cities#show"
+
+    #concerts routes
+    get "/concerts/:id" => "concerts#index"
   end
 end

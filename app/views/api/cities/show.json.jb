@@ -1,11 +1,12 @@
-@city.map do |concert|
-{
-  name: concert.name,
-  date: concert.date,
-  venue: concert.venue.name,
-  tickets: concert.ticket_link
-}
+# @city.map do |concert|
+# {
+#   name: concert.name,
+#   date: concert.date,
+#   venue: concert.venue.name,
+#   tickets: concert.ticket_link,
+#   artist: concert.artist.score
+# }
 
-end
+# end
 
 # @city
