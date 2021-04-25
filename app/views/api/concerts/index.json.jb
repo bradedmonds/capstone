@@ -4,7 +4,8 @@
     date: concert.date,
     venue: concert.venue.name,
     tickets: concert.ticket_link,
-    score: concert.artist.score
+    score: concert.artist.score,
+    category: concert.venue.category
   }
   
   end
