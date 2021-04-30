@@ -10,5 +10,8 @@ Rails.application.routes.draw do
 
     #concerts routes
     get "/concerts/:id" => "concerts#index"
+
+    #artists routes
+    get "/artists/:id" => "artists#show"
   end
 end

@@ -1,0 +1,6 @@
+{
+  name: @artist.name,
+  instagram: @artist.instagram,
+  facebook: @artist.facebook,
+  spotify: @artist.spotify
+}
