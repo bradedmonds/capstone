@@ -1,0 +1,6 @@
+{
+  name: @venue.name,
+  address: @venue.address,
+  city: @venue.city.city,
+  state: @venue.city.state
+}
