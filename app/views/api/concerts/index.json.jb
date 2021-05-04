@@ -5,7 +5,11 @@
     venue: concert.venue.name,
     tickets: concert.ticket_link,
     score: concert.artist.score,
-    category: concert.venue.category
+    category: concert.venue.category,
+    artist: concert.artist.name,
+    instagram: concert.artist.instagram,
+    facebook: concert.artist.facebook,
+    spotify: concert.artist.spotify
   }
   
   end
